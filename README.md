@@ -10,10 +10,24 @@ This project uses **Python**, **OpenCV**, **MediaPipe**, and **PyAutoGUI** to re
 ## 🚀 Features
 
 * Real-time **hand tracking** using MediaPipe
-* Move cursor using your **index finger**
-* **Left click** → index + middle fingers up
-* **Right click** → only index finger up
-* **Exit** → make a fist (no fingers up)
+Index finger moves cursor smoothly
+✔ Left Click
+Index + middle finger up
+✔ Right Click
+Index finger only
+✔ Double Click
+Two fingers up OR rapid two-finger gesture
+✔ Drag & Drop
+Pinch gesture (thumb + index close)
+Release pinch to drop
+✔ Middle Click
+3 fingers up
+✔ Scroll
+Two fingers up
+Move hand up = scroll up
+Move hand down = scroll down
+✔ Exit
+Make a fist
 * Works completely **contactless**, ideal for accessibility or touchless interfaces
 
 ---
